@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_question"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.sgolden.vigilancetask.QuestionActivity"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:text="What is x + y?"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/question"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <EditText
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="200dp"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:id="@+id/answerInput2"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"
+        android:layout_width="150dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scale"
+        android:layout_marginTop="300dp"
+        android:id="@+id/myRadioGroup"
+        android:background="@android:color/darker_gray"
+        android:paddingRight="20dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:text="@string/option_1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:text="@string/option_2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:text="@string/option_3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:text="@string/option_4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:text="@string/option_5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6"
+            android:text="@string/option_6" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton7"
+            android:text="@string/option_7" />
+
+    </RadioGroup>
+
+    <TextView
+        android:text="What is x + y?"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/question3"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:text="What is x + y?"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/question2"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/background"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:id="@+id/answerInput3"
+        android:textSize="24sp"
+        android:layout_marginTop="200dp"
+        android:layout_width="150dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/background"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:id="@+id/answerInput"
+        android:textSize="24sp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="200dp" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="480dp" />
+
+</android.support.design.widget.CoordinatorLayout>
